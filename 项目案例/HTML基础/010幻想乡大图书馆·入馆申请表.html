@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幻想乡大图书馆·入馆申请表</title>
+</head>
+
+<body>
+    <!-- h1 定义页面主标题 -->
+    <h1>📚 幻想乡大图书馆·入馆申请表</h1>
+    <p><em>温馨提示：未经帕秋莉大人允许，严禁在馆内使用火系魔法！</em></p>
+
+    <hr>
+
+    <!-- 
+      form 标签：整个表单的容器
+      action="#"：提交后跳转的地址（目前没写后端，先留空或#）
+      method="post"：数据传输方式（涉及隐私信息通常用 post）
+    -->
+    <form action="#" method="post">
+
+        <!-- 
+          fieldset + legend：将表单内容分组并添加标题
+          这是语义化表单的最佳实践，能让结构更清晰
+        -->
+        <fieldset>
+            <legend>【基础信息申报】</legend>
+
+            <!-- label + input：文本输入框 -->
+            <!-- for 属性的值必须和 input 的 id 一致，点击文字也能聚焦输入框 -->
+            <label for="name">姓名/称号：</label><br>
+            <input type="text" id="name" placeholder="例如：博丽灵梦" required><br><br>
+
+            <!-- select：下拉选择菜单 -->
+            <label for="race">种族：</label><br>
+            <select id="race">
+                <option value="" disabled selected>-- 请选择您的种族 --</option>
+                <option value="human">人类</option>
+                <option value="youkai">妖怪</option>
+                <option value="fairy">妖精</option>
+                <option value="half">半妖/其他</option>
+            </select><br><br>
+
+            <!-- radio：单选按钮 -->
+            <!-- 注意：name 属性必须相同，才能实现“多选一”的效果 -->
+            <label>危险等级评估：</label><br>
+            <input type="radio" id="level-low" name="danger-level" value="low">
+            <label for="level-low">低（仅看书喝茶）</label><br>
+            <input type="radio" id="level-mid" name="danger-level" value="mid">
+            <label for="level-mid">中（偶尔会放符卡）</label><br>
+            <input type="radio" id="level-high" name="danger-level" value="high">
+            <label for="level-high">高（可能拆了图书馆）</label><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>【能力与申请理由】</legend>
+
+            <!-- checkbox：复选框 -->
+            <label>已阅读并同意以下条款：</label><br>
+            <input type="checkbox" id="rule1" required>
+            <label for="rule1">禁止在馆内吃烤鸟蛋</label><br>
+            <input type="checkbox" id="rule2" required>
+            <label for="rule2">禁止对书籍使用物理攻击</label><br><br>
+
+            <!-- textarea：多行文本输入框 -->
+            <label for="reason">入馆申请理由：</label><br>
+            <textarea id="reason" rows="5" cols="40" placeholder="请详细说明您为什么需要进入大图书馆..."></textarea><br><br>
+        </fieldset>
+
+        <!-- button：提交按钮 -->
+        <!-- type="submit" 表示点击后会触发表单提交动作 -->
+        <button type="submit">向帕秋莉提交申请</button>
+
+        <!-- reset 按钮：清空所有填写的内容 -->
+        <button type="reset">重新填写</button>
+    </form>
+</body>
+
+</html>

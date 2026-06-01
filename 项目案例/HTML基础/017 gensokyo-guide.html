@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幻想乡图鉴 - 米斯蒂娅待客指南</title>
+</head>
+
+<body>
+    <!-- 1. 页面头部 -->
+    <header>
+        <h1>📖 幻想乡生态图鉴</h1>
+        <p>本图鉴由夜雀食堂赞助，记录幻想乡中的奇闻异事。</p>
+        <nav>
+            <a href="#section-monster">妖怪篇</a> |
+            <a href="#section-god">神明篇</a> |
+            <a href="#section-submit">投稿纠错</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- 2. 主要内容区 -->
+    <main>
+        <!-- 独立文章区块：妖怪篇 -->
+        <article id="section-monster">
+            <h2>一、常见妖怪生态</h2>
+
+            <section>
+                <h3>1. 妖精 (Fairy)</h3>
+                <p>幻想乡中最常见的低级妖怪。虽然个体战斗力极弱，但生命力顽强，即使被消灭也能很快复活。她们通常负责维持自然现象，比如让树叶变黄、让水面结冰等。</p>
+
+                <!-- 使用 figure 和 figcaption 展示图片 -->
+                <figure>
+                    <img src="fairy.jpg" alt="一只正在恶作剧的冰之妖精" width="300">
+                    <figcaption>图1：正在试图冻结露琪亚茶壶的冰之妖精</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h3>2. 河童 (Kappa)</h3>
+                <p>居住在妖怪之山脚下的技术宅。精通机械工程和黑客技术，是幻想乡重工业的主要劳动力。头顶的盘子一旦干涸就会失去力量。</p>
+            </section>
+        </article>
+
+        <!-- 侧边附属信息 -->
+        <aside>
+            <h3>💡 观察注意事项</h3>
+            <ul>
+                <li>遇到野生妖精请勿直视她的眼睛。</li>
+                <li>不要随意触碰河童的扳手。</li>
+                <li>若听到奇怪的歌声，请立刻捂住耳朵。</li>
+            </ul>
+        </aside>
+
+        <!-- 多媒体展示区 -->
+        <section>
+            <h2>二、珍贵影像资料</h2>
+            <video controls width="400">
+                <source src="mystia-cooking.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+            <p><small>* 录像来源：天狗的新闻报道</small></p>
+        </section>
+
+        <hr>
+
+        <!-- 互动表单区 -->
+        <section id="section-submit">
+            <h2>三、图鉴纠错与补充</h2>
+            <form action="#" method="post">
+                <label for="username">你的名字：</label>
+                <input type="text" id="username" name="username" placeholder="如：博丽灵梦"><br><br>
+
+                <label for="category">内容分类：</label>
+                <select id="category" name="category">
+                    <option value="monster">妖怪</option>
+                    <option value="god">神明</option>
+                    <option value="human">人类</option>
+                    <option value="other">其他</option>
+                </select><br><br>
+
+                <label for="suggestion">你的补充说明：</label><br>
+                <textarea id="suggestion" name="suggestion" rows="4" cols="40"
+                    placeholder="请在这里写下你的发现..."></textarea><br><br>
+
+                <button type="submit">提交给射命丸文</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- 3. 页面底部 -->
+    <footer>
+        <p>&copy; 幻想乡图文出版社 | 最终解释权归八云紫所有</p>
+        <p><time datetime="2026-05-29">最后更新时间：2026年5月29日</time></p>
+    </footer>
+</body>
+
+</html>
