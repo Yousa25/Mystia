@@ -8,9 +8,179 @@
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <hgroup>
+            <h1>🏮夜雀食堂·内部工作台</h1>
+            <p>欢迎回来，米斯蒂娅。今晚的营业辛苦了！</p>
+        </hgroup>
+        <nav>
+            <a href="#inventory-section">食材库存</a>|
+            <a href="#finance-section">今日流水</a>|
+            <a href="#form-section">意见登记</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="inventory-section">
+            <h2>🛒今日采购清单</h2>
+            <!-- 无序列表 -->
+            <p><strong>【无序列表】明日需补充的新鲜食材：</strong></p>
+            <ul>
+                <li>八目鳗X 5条</li>
+                <li>普通鸡蛋X 20枚</li>
+                <li>海苔X 3包</li>
+            </ul>
+
+            <!-- 有序列表 -->
+            <p><strong>【有序列表】应对幽幽子大人的紧急预案步骤：</strong></p>
+            <ol type="A">
+                <li>确认冰镇冷食储备是否充足。</li>
+                <li>检查酒水库存，至少准备100壶。</li>
+                <li>深呼吸，保持微笑，绝不能让客人饿肚子。</li>
+            </ol>
+
+            <!-- 自定义列表 -->
+            <p><strong>【定义列表】幻想乡核心VIP档案：</strong></p>
+            <dl>
+                <dt>西行寺幽幽子</dt>
+                <dd>冥界大小姐，大胃王，极度偏好中华料理与冷食。切勿让她饿肚子，否则店铺耐久度会归零！</dd>
+                <dt>博丽灵梦</dt>
+                <dd>神社巫女，喜欢实惠、高级的食物（如饭团）。如果太贵她会抱怨没钱。</dd>
+            </dl>
+
+            <hr>
+        </section>
+
+        <section id="finance-section">
+            <h2><strong>📊 今日营业流水表</strong></h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>夜雀食堂 - 本月结算报表</caption>
+                <thead>
+                    <tr>
+                        <th>菜品名称</th>
+                        <th>单价（铜币）</th>
+                        <th>售出份数</th>
+                        <th>客人评价</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>烤八目鳗</td>
+                        <td>450</td>
+                        <td>12</td>
+                        <td>火候完美，外焦里嫩</td>
+                    </tr>
+                    <tr>
+                        <td>海鲜味噌汤</td>
+                        <td>80</td>
+                        <td>25</td>
+                        <td>暖胃佳品，灵梦很满意</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>总计收入</strong></td>
+                        <td colspan="2"><strong>6,440 铜币</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+        <section id="form-section">
+            <h2><strong>📝 客人意见与需求登记簿</strong></h2>
+            <form action="#">
+                <fieldset>
+                    <legend>
+                        基础信息
+                    </legend>
+                    <p><label for="guest-mame">
+                            客人姓名：
+                        </label>
+                        <input type="text" name="guest-mame" id="guest-mame" placeholder="例如：博丽灵梦">
+                    </p>
+
+                    <p><label for="contact-email">
+                            联系邮箱：
+                        </label>
+                        <input type="email" name="contact-email" id="contact-email"
+                            placeholder="mystia@night-sparrow.com">
+                    </p>
+
+                    <p><label for="arrive-date">
+                            到访日期：
+                        </label>
+                        <input type="date" name="arrive-date" id="arrive-date">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        用餐反馈
+                    </legend>
+                    <p><label>
+                            满意度评分：
+                        </label>
+                        <input type="radio" id="rate-good" name="rate">
+                        <label for="rate-good" name="rate-good">好吃！（满意）</label>
+                        <input type="radio" id="rate-common" name="rate">
+                        <label for="rate-common">一般般</label>
+                        <input type="radio" id="rate-bad" name="rate">
+                        <label for="rate-bad">想拆店（差评）</label>
+                    </p>
+                    <p>
+                        <label for="allergy">忌口/过敏源（可多选）：</label>
+                        <input type="checkbox" name="allergy-odd" id="allergy-odd">
+                        <label for="allergy-odd">猎奇食材</label>
+                        <input type="checkbox" name="allergy-spicy" id="allergy-spicy">
+                        <label for="allergy-spicy">辛辣食物</label>
+                    </p>
+                    <p>
+                        <label for="feedback"> 具体留言:</label>
+                        <br>
+                        <textarea id="feedback" name="feedback" rows="4" cols="50"
+                            placeholder="请写下您的用餐体验..."></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        进阶需求
+                    </legend>
+                    <p><label for="order-number">下次预定份数：</label>
+                        <input type="number" name="order-number" id="order-number">
+                    </p>
+                    <p>
+                        <label for="order-food">最想点的菜：</label>
+                        <input type="text" name="order-food" id="order-food" list="dish-list">
+                        <datalist id="dish-list">
+                            <option value="烤八目鳗">烤八目鳗</option>
+                            <option value="海鲜味增汤">海鲜味增汤</option>
+                            <option value="能量串">能量串</option>
+                            <option value="豚骨拉面">豚骨拉面</option>
+                        </datalist>
+                    </p>
+                    <p>
+                        <label for="budgetSlider">心理预期预算：</label>
+                        <input type="range" name="bdugetSlider" id="budgetSlider" max="1000" step="50"
+                            oninput="budgetOutput.value=budgetSlider.value">
+                        <output id="budgetOutput" name="budgetOutput">500</output>铜币
+                    </p>
+                    <p>
+                        <label for="color">喜欢的灯笼颜色：</label>
+                        <input type="color">
+                    </p>
+                </fieldset>
+                <input type="submit" value="提交给老板娘">
+                <input type="reset" value="清空填写">
+            </form>
+            <hr>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy;2024 夜雀食堂内部系统 | 严禁外传</p>
+    </footer>
 </body>
 
 </html>
