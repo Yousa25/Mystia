@@ -132,18 +132,3 @@
 > ><img src="../Common/Cutscene.png" alt="过场动画" width="200px">
 
 <img src="./游戏画面-重新开始.png" alt="游戏画面-重新开始.png" width="200px">
-
-
-[洋葱]()
-[南瓜]()
-
-![牛肉](image-11.png)
-![洋葱](image-12.png)
-![alt text](image-13.png)
-
-
-
-
-**米斯蒂娅** ：
-**幽谷响子**：
-**?????**：

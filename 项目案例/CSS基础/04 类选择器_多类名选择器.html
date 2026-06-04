@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类选择器 博丽灵梦的喜好标签</title>
+    <style>
+        .Tag {
+            border-width: 1px;
+            border-radius: .25rem;
+            font-weight: 400;
+
+        }
+
+        .like {
+            background-color: rgb(230, 180, 166);
+            border-color: rgb(157, 84, 55);
+            color: rgb(131, 0, 0);
+
+        }
+
+        .dislike {
+            background-color: rgb(93, 69, 58);
+            border-color: rgb(0, 0, 0);
+            color: rgb(230, 180, 166);
+        }
+
+        .drink-like {
+            background-color: rgb(176, 207, 215);
+            border-color: rgb(111, 146, 155);
+            color: rgb(164, 92, 34);
+        }
+
+        .background {
+            background-color: black;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../images/博丽灵梦.png" alt="红色杀人魔">
+    <div class="background">
+        <div class="food">
+            <span class="like Tag">·饱腹</span>
+            <span class="like Tag">·不可思议</span>
+            <span class="like Tag">·高级</span>
+            <span class="like Tag">·流行喜爱</span>
+            <span class="like Tag">·实惠</span>
+            <span class="like Tag">·甜</span>
+        </div>
+        <div class="food">
+            <span class="dislike Tag">昂贵X</span>
+            <span class="dislike Tag">流行厌恶X</span>
+            <span class="dislike Tag">下酒X</span>
+        </div>
+        <div class="drinks">
+            <span class="drink-like Tag">·无酒精</span>
+            <span class="drink-like Tag">·低酒精</span>
+            <span class="drink-like Tag">·可加热</span>
+        </div>
+    </div>
+</body>
+
+</html>

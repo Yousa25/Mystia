@@ -1,0 +1,34 @@
+/*CSS文件里只有样式没有标签*/
+/*该文件名：style.css*/
+
+.like {
+    background-color: rgb(230, 180, 166);
+    border-color: rgb(157, 84, 55);
+    color: rgb(131, 0, 0);
+    border-width: 1px;
+    border-radius: .25rem;
+    font-weight: 400;
+}
+
+.dislike {
+    background-color: rgb(93, 69, 58);
+    border-color: rgb(0, 0, 0);
+    color: rgb(230, 180, 166);
+    border-width: 1px;
+    border-radius: .25rem;
+    font-weight: 400;
+}
+
+.drink-like {
+    background-color: rgb(176, 207, 215);
+    border-color: rgb(111, 146, 155);
+    color: rgb(164, 92, 34);
+    border-width: 1px;
+    border-radius: .25rem;
+    font-weight: 400;
+}
+
+.background {
+    background-color: black;
+    width: 300px;
+}
