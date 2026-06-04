@@ -10,7 +10,11 @@
 <li> 小碎骨头晕 <img src="./小碎骨头晕.png" width="100px"></li>
 <li> 小碎骨惊讶 <img src="./小碎骨睁眼.png" width="100px"></li>
 <li> 小碎骨犯困 <img src="./小碎骨犯困.png" width="100px"></li>
+<li> 小碎骨疑惑 <img src="./小碎骨疑惑.png" width="100px"></li>
 </ul>
 </section>
 
+<audio src="./th08_05.mp3">
+
 <a href="../Index.md">返回角色图鉴</a>
+

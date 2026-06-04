@@ -26,7 +26,10 @@
 上白泽慧音
 <img src="./Kamishirasawa Keine/100px-上白泽慧音2（Q版立绘）.png"> 
 </td>
+<td>
+<a href="./chen.md">
+橙
+<img src="./Chen/100px-橙（Q版立绘）.png"> 
+</td>
 </tr>
-
-
 </table>
