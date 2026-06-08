@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontendCashier", "Frontend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeDatabase", "RecipeDatabase\RecipeDatabase.csproj", "{A4DD45C0-702A-4BD5-AC82-97489400A987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndInstance", "ClassAndInstance\ClassAndInstance.csproj", "{27E1C149-DEEF-41FF-9F8B-BC8B95085B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A4DD45C0-702A-4BD5-AC82-97489400A987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4DD45C0-702A-4BD5-AC82-97489400A987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4DD45C0-702A-4BD5-AC82-97489400A987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1C149-DEEF-41FF-9F8B-BC8B95085B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1C149-DEEF-41FF-9F8B-BC8B95085B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1C149-DEEF-41FF-9F8B-BC8B95085B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1C149-DEEF-41FF-9F8B-BC8B95085B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

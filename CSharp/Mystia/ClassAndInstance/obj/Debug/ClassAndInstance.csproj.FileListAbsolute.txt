@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\bin\Debug\ClassAndInstance.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\bin\Debug\ClassAndInstance.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\bin\Debug\ClassAndInstance.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\obj\Debug\ClassAndInstance.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\obj\Debug\ClassAndInstance.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\obj\Debug\ClassAndInstance.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\ClassAndInstance\obj\Debug\ClassAndInstance.pdb
