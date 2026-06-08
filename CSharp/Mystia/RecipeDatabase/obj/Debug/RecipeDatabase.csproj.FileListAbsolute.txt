@@ -1,0 +1,6 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\bin\Debug\RecipeDatabase.dll
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\bin\Debug\RecipeDatabase.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\obj\Debug\RecipeDatabase.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\obj\Debug\RecipeDatabase.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\obj\Debug\RecipeDatabase.dll
+D:\学习\00前端\Mystia\CSharp\Mystia\RecipeDatabase\obj\Debug\RecipeDatabase.pdb

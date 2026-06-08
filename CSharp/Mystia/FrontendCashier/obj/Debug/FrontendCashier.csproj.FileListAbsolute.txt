@@ -1,0 +1,10 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\bin\Debug\FrontendCashier.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\bin\Debug\FrontendCashier.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\bin\Debug\FrontendCashier.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\obj\Debug\FrontendCashier.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\obj\Debug\FrontendCashier.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\obj\Debug\FrontendCashier.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\obj\Debug\FrontendCashier.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\bin\Debug\RecipeDatabase.dll
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\bin\Debug\RecipeDatabase.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\FrontendCashier\obj\Debug\Frontend.B81BFDFD.Up2Date

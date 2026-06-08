@@ -1,0 +1,6 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\bin\Debug\ExternalSpiceLibrary.dll
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\bin\Debug\ExternalSpiceLibrary.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\obj\Debug\ExternalSpiceLibrary.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\obj\Debug\ExternalSpiceLibrary.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\obj\Debug\ExternalSpiceLibrary.dll
+D:\学习\00前端\Mystia\CSharp\Mystia\ExternalSpiceLibrary\obj\Debug\ExternalSpiceLibrary.pdb
