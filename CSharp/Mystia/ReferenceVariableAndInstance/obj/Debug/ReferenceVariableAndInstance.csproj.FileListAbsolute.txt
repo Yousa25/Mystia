@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\bin\Debug\ReferenceVariableAndInstance.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\bin\Debug\ReferenceVariableAndInstance.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\bin\Debug\ReferenceVariableAndInstance.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\obj\Debug\ReferenceVariableAndInstance.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\obj\Debug\ReferenceVariableAndInstance.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\obj\Debug\ReferenceVariableAndInstance.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\ReferenceVariableAndInstance\obj\Debug\ReferenceVariableAndInstance.pdb
