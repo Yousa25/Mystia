@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\bin\Debug\HanNuoTa.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\bin\Debug\HanNuoTa.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\bin\Debug\HanNuoTa.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\obj\Debug\HanNuoTa.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\obj\Debug\HanNuoTa.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\obj\Debug\HanNuoTa.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\HanNuoTa\obj\Debug\HanNuoTa.pdb
