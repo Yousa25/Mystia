@@ -58,15 +58,39 @@ namespace HanNuoTa
         /// <returns></returns>
         /// 
 
-        public void HanNuoTa(int diskCount, string src, string temp, string target)
+
+        //public void HanNuoTa(int x,string start,string temp,string end)
+        //{
+        //    if(x == 1) {
+        //        Console.WriteLine($"将盘子从{start}移到{end}上");
+        //    }
+        //    else
+        //    {
+        //        HanNuoTa(x-1,start,end,temp);
+        //        Console.WriteLine($"将盘子从{start}移到{end}上");
+        //        HanNuoTa(x - 1, temp, start, end);
+        //    }
+
+        //}
+
+        int i = 1;
+        public void HanNuoTa(int N,string start,string temp,string end)
         {
-           if(diskCount == 1) {
-                Console.WriteLine($"{src}--{target}");
+            // 记录进入当前层的状态
+            Console.WriteLine($"[进入] N={N}, 起点:{start}, 中转:{temp}, 终点:{end}");
+            if (N == 0)
+            {
+                return;
             }
-          
-
+            else
+            {
+                HanNuoTa(N - 1, start, end, temp);
+                Console.WriteLine($"第{i++}次，{start}-->{end}");
+                HanNuoTa(N - 1, temp, start, end);
+            }
+            // 记录离开当前层的状态
+            Console.WriteLine($"[退出] N={N} 处理完毕");
         }
-
 
     }
     internal class Program
@@ -80,9 +104,9 @@ namespace HanNuoTa
             Cashier cashier = new Cashier();
             //定义三根柱子a,b,c
             string a, b, c;
-            a = "A";
-            b = "B";
-            c = "C";
+            a = "A";//起始柱
+            b = "B";//临时柱
+            c = "C";//目标柱
             cashier.HanNuoTa(3, a, b, c);
             //Console.WriteLine(count);
         }
