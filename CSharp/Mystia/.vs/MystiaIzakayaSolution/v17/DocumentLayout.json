@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}|TypeSample\\TypeSample.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\typesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}|TypeSample\\TypeSample.csproj|solutionrelative:typesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3EB1AA43-2533-4BA4-82F7-6EB12E228777}|HanNuoTa\\HanNuoTa.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\hannuota\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB1AA43-2533-4BA4-82F7-6EB12E228777}|HanNuoTa\\HanNuoTa.csproj|solutionrelative:hannuota\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27D12085-F82B-4323-8EA1-0CF4EE177F38}|Mystia\\Touhou_Mystia_Izakaya.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\mystia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27D12085-F82B-4323-8EA1-0CF4EE177F38}|Mystia\\Touhou_Mystia_Izakaya.csproj|D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\mystia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27D12085-F82B-4323-8EA1-0CF4EE177F38}|Mystia\\Touhou_Mystia_Izakaya.csproj|solutionrelative:mystia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -68,6 +72,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\TypeSample\\Program.cs",
+              "RelativeDocumentMoniker": "TypeSample\\Program.cs",
+              "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\TypeSample\\Program.cs",
+              "RelativeToolTip": "TypeSample\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:21:11.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\HanNuoTa\\Program.cs",
               "RelativeDocumentMoniker": "HanNuoTa\\Program.cs",
               "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\HanNuoTa\\Program.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\Mystia\\Program.cs",
               "RelativeDocumentMoniker": "Mystia\\Program.cs",
@@ -87,8 +104,7 @@
               "RelativeToolTip": "Mystia\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T01:23:02.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T01:23:02.946Z"
             }
           ]
         }
