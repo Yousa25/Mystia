@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanNuoTa", "HanNuoTa\HanNuo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeSample", "TypeSample\TypeSample.csproj", "{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightSparrowCanteen", "NightSparrowCanteen\NightSparrowCanteen.csproj", "{CC9CC319-3E5B-463F-AF8D-C44A39C803EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C874EDD4-AB7B-4A04-8B3C-0CD326EC4398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9CC319-3E5B-463F-AF8D-C44A39C803EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9CC319-3E5B-463F-AF8D-C44A39C803EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9CC319-3E5B-463F-AF8D-C44A39C803EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9CC319-3E5B-463F-AF8D-C44A39C803EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
