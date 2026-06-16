@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\bin\Debug\Operator.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\bin\Debug\Operator.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\bin\Debug\Operator.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\obj\Debug\Operator.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\obj\Debug\Operator.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\obj\Debug\Operator.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\Operator\obj\Debug\Operator.pdb
