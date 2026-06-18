@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operator", "Operator\Operat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statement", "Statement\Statement.csproj", "{37106B37-F9CE-49F6-BC82-D520EB9EABCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightSparrowCanteen_2", "NightSparrowCanteen_2\NightSparrowCanteen_2.csproj", "{D7994801-60C5-4C27-A790-E873AC599DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{37106B37-F9CE-49F6-BC82-D520EB9EABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37106B37-F9CE-49F6-BC82-D520EB9EABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37106B37-F9CE-49F6-BC82-D520EB9EABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7994801-60C5-4C27-A790-E873AC599DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7994801-60C5-4C27-A790-E873AC599DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7994801-60C5-4C27-A790-E873AC599DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7994801-60C5-4C27-A790-E873AC599DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

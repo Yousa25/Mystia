@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\bin\Debug\NightSparrowCanteen_2.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\bin\Debug\NightSparrowCanteen_2.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\bin\Debug\NightSparrowCanteen_2.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\obj\Debug\NightSparrowCanteen_2.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\obj\Debug\NightSparrowCanteen_2.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\obj\Debug\NightSparrowCanteen_2.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\NightSparrowCanteen_2\obj\Debug\NightSparrowCanteen_2.pdb
