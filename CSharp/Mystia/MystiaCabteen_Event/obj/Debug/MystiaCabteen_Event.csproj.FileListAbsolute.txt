@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\bin\Debug\MystiaCabteen_Event.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\bin\Debug\MystiaCabteen_Event.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\bin\Debug\MystiaCabteen_Event.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\obj\Debug\MystiaCabteen_Event.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\obj\Debug\MystiaCabteen_Event.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\obj\Debug\MystiaCabteen_Event.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCabteen_Event\obj\Debug\MystiaCabteen_Event.pdb

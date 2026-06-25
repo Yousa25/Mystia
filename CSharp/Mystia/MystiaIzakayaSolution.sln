@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "params", "params\params.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{16158D15-9213-46CD-A1D2-0C8981C45094}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{16413A38-E307-4C4A-AE6F-FDB6F7ACA3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MystiaCabteen_Event", "MystiaCabteen_Event\MystiaCabteen_Event.csproj", "{D9D4902E-A933-41F0-8294-73E8BB90542D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{16158D15-9213-46CD-A1D2-0C8981C45094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16158D15-9213-46CD-A1D2-0C8981C45094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16158D15-9213-46CD-A1D2-0C8981C45094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16413A38-E307-4C4A-AE6F-FDB6F7ACA3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16413A38-E307-4C4A-AE6F-FDB6F7ACA3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16413A38-E307-4C4A-AE6F-FDB6F7ACA3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16413A38-E307-4C4A-AE6F-FDB6F7ACA3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D4902E-A933-41F0-8294-73E8BB90542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D4902E-A933-41F0-8294-73E8BB90542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D4902E-A933-41F0-8294-73E8BB90542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D4902E-A933-41F0-8294-73E8BB90542D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\bin\Debug\Event.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\bin\Debug\Event.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\bin\Debug\Event.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\obj\Debug\Event.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\obj\Debug\Event.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\obj\Debug\Event.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\Event\obj\Debug\Event.pdb
