@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\bin\Debug\MystiaCanteen3.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\bin\Debug\MystiaCanteen3.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\bin\Debug\MystiaCanteen3.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\obj\Debug\MystiaCanteen3.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\obj\Debug\MystiaCanteen3.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\obj\Debug\MystiaCanteen3.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\MystiaCanteen3\obj\Debug\MystiaCanteen3.pdb
