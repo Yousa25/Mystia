@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MystiaCabteen_Event", "Myst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MystiaCanteen3", "MystiaCanteen3\MystiaCanteen3.csproj", "{2D80137A-A168-48D5-AB3A-634099AEE728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example027", "Example027\Example027.csproj", "{BE8A91F0-1F53-44EE-804D-99789770B2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractPractice", "AbstractPractice\AbstractPractice.csproj", "{D623DC12-4C7E-45BD-820F-CAC95503CB70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{2D80137A-A168-48D5-AB3A-634099AEE728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D80137A-A168-48D5-AB3A-634099AEE728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D80137A-A168-48D5-AB3A-634099AEE728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8A91F0-1F53-44EE-804D-99789770B2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8A91F0-1F53-44EE-804D-99789770B2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8A91F0-1F53-44EE-804D-99789770B2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8A91F0-1F53-44EE-804D-99789770B2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D623DC12-4C7E-45BD-820F-CAC95503CB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D623DC12-4C7E-45BD-820F-CAC95503CB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D623DC12-4C7E-45BD-820F-CAC95503CB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D623DC12-4C7E-45BD-820F-CAC95503CB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

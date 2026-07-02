@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D80137A-A168-48D5-AB3A-634099AEE728}|MystiaCanteen3\\MystiaCanteen3.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\mystiacanteen3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D623DC12-4C7E-45BD-820F-CAC95503CB70}|AbstractPractice\\AbstractPractice.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\abstractpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D623DC12-4C7E-45BD-820F-CAC95503CB70}|AbstractPractice\\AbstractPractice.csproj|solutionrelative:abstractpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8A91F0-1F53-44EE-804D-99789770B2C5}|Example027\\Example027.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\example027\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8A91F0-1F53-44EE-804D-99789770B2C5}|Example027\\Example027.csproj|solutionrelative:example027\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D80137A-A168-48D5-AB3A-634099AEE728}|MystiaCanteen3\\MystiaCanteen3.csproj|D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\mystiacanteen3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D80137A-A168-48D5-AB3A-634099AEE728}|MystiaCanteen3\\MystiaCanteen3.csproj|solutionrelative:mystiacanteen3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D4902E-A933-41F0-8294-73E8BB90542D}|MystiaCabteen_Event\\MystiaCabteen_Event.csproj|d:\\\u5B66\u4E60\\00\u524D\u7AEF\\mystia\\csharp\\mystia\\mystiacabteen_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D4902E-A933-41F0-8294-73E8BB90542D}|MystiaCabteen_Event\\MystiaCabteen_Event.csproj|D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\mystiacabteen_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D4902E-A933-41F0-8294-73E8BB90542D}|MystiaCabteen_Event\\MystiaCabteen_Event.csproj|solutionrelative:mystiacabteen_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -76,18 +84,43 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\MystiaCanteen3\\Program.cs",
-              "RelativeDocumentMoniker": "MystiaCanteen3\\Program.cs",
-              "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\MystiaCanteen3\\Program.cs",
-              "RelativeToolTip": "MystiaCanteen3\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA9wB0AAAAfAAAA",
+              "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\AbstractPractice\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractPractice\\Program.cs",
+              "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\AbstractPractice\\Program.cs",
+              "RelativeToolTip": "AbstractPractice\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T07:06:16.381Z",
+              "WhenOpened": "2026-07-02T03:24:30.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\Example027\\Program.cs",
+              "RelativeDocumentMoniker": "Example027\\Program.cs",
+              "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\Example027\\Program.cs",
+              "RelativeToolTip": "Example027\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T02:02:37.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\MystiaCanteen3\\Program.cs",
+              "RelativeDocumentMoniker": "MystiaCanteen3\\Program.cs",
+              "ToolTip": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\MystiaCanteen3\\Program.cs",
+              "RelativeToolTip": "MystiaCanteen3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T07:06:16.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\MystiaCabteen_Event\\Program.cs",
               "RelativeDocumentMoniker": "MystiaCabteen_Event\\Program.cs",
@@ -95,12 +128,11 @@
               "RelativeToolTip": "MystiaCabteen_Event\\Program.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAqwDEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:15:23.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-24T08:15:23.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\Event\\Program.cs",
               "RelativeDocumentMoniker": "Event\\Program.cs",
@@ -112,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u5B66\u4E60\\00\u524D\u7AEF\\Mystia\\CSharp\\Mystia\\Delegate\\Program.cs",
               "RelativeDocumentMoniker": "Delegate\\Program.cs",

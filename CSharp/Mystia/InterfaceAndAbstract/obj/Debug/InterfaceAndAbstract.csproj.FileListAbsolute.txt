@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\bin\Debug\InterfaceAndAbstract.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\bin\Debug\InterfaceAndAbstract.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\bin\Debug\InterfaceAndAbstract.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\obj\Debug\InterfaceAndAbstract.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\obj\Debug\InterfaceAndAbstract.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\obj\Debug\InterfaceAndAbstract.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\InterfaceAndAbstract\obj\Debug\InterfaceAndAbstract.pdb

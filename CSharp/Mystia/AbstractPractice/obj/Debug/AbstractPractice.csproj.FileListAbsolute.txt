@@ -1,0 +1,7 @@
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\bin\Debug\AbstractPractice.exe.config
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\bin\Debug\AbstractPractice.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\bin\Debug\AbstractPractice.pdb
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\obj\Debug\AbstractPractice.csproj.AssemblyReference.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\obj\Debug\AbstractPractice.csproj.CoreCompileInputs.cache
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\obj\Debug\AbstractPractice.exe
+D:\学习\00前端\Mystia\CSharp\Mystia\AbstractPractice\obj\Debug\AbstractPractice.pdb
