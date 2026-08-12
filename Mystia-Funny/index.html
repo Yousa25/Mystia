@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花笙米互填表格</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        :root {
+            --border-color: #8baea6;
+            --highlight-purple: #9d5ec2;
+            --text-main: #4a635d;
+            --bg-paper: #fcfbf7;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .paper {
+            background-color: var(--bg-paper);
+            width: 100%;
+            max-width: 800px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 20px 20px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            color: #4a635d;
+            font-size: 2.2rem;
+            margin: 10px 0;
+            font-weight: 800;
+        }
+
+        .header h1 span {
+            color: var(--highlight-purple);
+        }
+
+        .header p {
+            color: #666;
+            font-size: 0.9rem;
+            margin: 5px 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: auto auto auto auto;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .box {
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            min-height: 80px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+            resize: none;
+            text-align: center;
+            font-family: inherit;
+            font-size: 0.9rem;
+            color: var(--text-main);
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .purple-box {
+            border: 3px solid var(--highlight-purple);
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 5px;
+            background: #fff;
+        }
+
+        .avatar-area {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+            flex: 1;
+        }
+
+        .avatar-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .avatar-placeholder {
+            color: var(--highlight-purple);
+            font-weight: bold;
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+        }
+
+        .avatar-placeholder span {
+            font-size: 0.8rem;
+            margin-top: 5px;
+            color: #999;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .bottom-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .user-col h3 {
+            color: var(--highlight-purple);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .free-talk {
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+            min-height: 150px;
+            padding: 15px;
+            margin-top: 10px;
+            background: rgba(255, 255, 255, 0.5);
+            box-sizing: border-box;
+        }
+
+        .r1-c1 {
+            grid-column: 1 / 2;
+        }
+
+        .r1-c2 {
+            grid-column: 2 / 3;
+        }
+
+        .r1-c3 {
+            grid-column: 3 / 4;
+        }
+
+        .r1-c4 {
+            grid-column: 4 / 5;
+        }
+
+        .r1-c5 {
+            grid-column: 5 / 6;
+        }
+
+        .r1-c6 {
+            grid-column: 6 / 7;
+        }
+
+        .r2-c1 {
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+
+        .r2-c2 {
+            grid-column: 2 / 4;
+            grid-row: 2 / 4;
+        }
+
+        .r2-c4 {
+            grid-column: 4 / 6;
+            grid-row: 2 / 4;
+        }
+
+        .r2-c6 {
+            grid-column: 6 / 7;
+            grid-row: 2 / 4;
+        }
+
+        .r4-c1 {
+            grid-column: 1 / 2;
+        }
+
+        .r4-c2 {
+            grid-column: 2 / 3;
+        }
+
+        .r4-c3 {
+            grid-column: 3 / 4;
+        }
+
+        .r4-c4 {
+            grid-column: 4 / 5;
+        }
+
+        .r4-c5 {
+            grid-column: 5 / 6;
+        }
+
+        .r4-c6 {
+            grid-column: 6 / 7;
+        }
+
+        .save-btn {
+            margin-top: 30px;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: var(--highlight-purple);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(157, 94, 194, 0.4);
+            transition: transform 0.2s;
+        }
+
+        .save-btn:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+
+            .box {
+                grid-column: auto !important;
+                grid-row: auto !important;
+                min-height: 60px;
+            }
+
+            .bottom-section {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="paper" id="capture-area">
+        <div class="header">
+            <h1>我真是个优秀<span>花笙米</span></h1>
+            <p>快去邀请你的同担米米们一起填写吧！</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="box r1-c1"><textarea placeholder="最爱的系列/EP/专辑"></textarea></div>
+            <div class="box r1-c2"><textarea placeholder="心中的Top1歌曲"></textarea></div>
+            <div class="box r1-c3"><textarea placeholder="入坑曲"></textarea></div>
+            <div class="box r1-c4"><textarea placeholder="入坑曲"></textarea></div>
+            <div class="box r1-c5"><textarea placeholder="心中的Top1歌曲"></textarea></div>
+            <div class="box r1-c6"><textarea placeholder="最爱的系列/EP/专辑"></textarea></div>
+
+            <div class="box r2-c1"><textarea placeholder="已经喜欢多少年了"></textarea></div>
+
+            <div class="box purple-box r2-c2">
+                <label class="avatar-area">
+                    <input type="file" accept="image/*" onchange="loadFile(event, 'img1')">
+                    <div class="avatar-placeholder" id="ph1">壹号头像<div
+                            style="font-size:0.7rem; color:#aaa; margin-top:5px;">(点击上传)</div>
+                    </div>
+                    <img id="img1" src="">
+                </label>
+                <textarea style="height:30px; margin-top:5px; font-size:0.8rem;" placeholder="怪不得我们"></textarea>
+            </div>
+
+            <div class="box purple-box r2-c4">
+                <label class="avatar-area">
+                    <input type="file" accept="image/*" onchange="loadFile(event, 'img2')">
+                    <div class="avatar-placeholder" id="ph2">贰号头像<div
+                            style="font-size:0.7rem; color:#aaa; margin-top:5px;">(点击上传)</div>
+                    </div>
+                    <img id="img2" src="">
+                </label>
+                <textarea style="height:30px; margin-top:5px; font-size:0.8rem;" placeholder="能聊在一起"></textarea>
+            </div>
+
+            <div class="box r2-c6"><textarea placeholder="已经喜欢多少年了"></textarea></div>
+
+            <div class="box r4-c1"><textarea placeholder="印象最深的线下场次"></textarea></div>
+            <div class="box r4-c2"><textarea placeholder="今年听得最多的歌曲是"></textarea></div>
+            <div class="box r4-c3"><textarea placeholder="最符合→对方气质的一首歌曲"></textarea></div>
+            <div class="box r4-c4"><textarea placeholder="←最符合对方气质的一首歌曲"></textarea></div>
+            <div class="box r4-c5"><textarea placeholder="今年听得最多的歌曲是"></textarea></div>
+            <div class="box r4-c6"><textarea placeholder="印象最深的线下场次"></textarea></div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="user-col">
+                <h3>🥜 花笙米1号：</h3>
+                <div class="free-talk">
+                    <textarea
+                        style="width:100%; height:100%; border:none; background:transparent; resize:none; outline:none;"
+                        placeholder="以下为自由发言区..."></textarea>
+                </div>
+            </div>
+            <div class="user-col">
+                <h3>🥜 花笙米2号：</h3>
+                <div class="free-talk">
+                    <textarea
+                        style="width:100%; height:100%; border:none; background:transparent; resize:none; outline:none;"
+                        placeholder="以下为自由发言区..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="save-btn" onclick="saveImage()">生成并保存图片</button>
+
+    <script>
+        function loadFile(event, imgId) {
+            var output = document.getElementById(imgId);
+            var placeholder = document.getElementById(imgId === 'img1' ? 'ph1' : 'ph2');
+            output.src = URL.createObjectURL(event.target.files[0]);
+            output.onload = function () {
+                URL.revokeObjectURL(output.src)
+            }
+            output.style.display = 'block';
+            placeholder.style.display = 'none';
+        }
+
+        function saveImage() {
+            const btn = document.querySelector('.save-btn');
+            btn.style.display = 'none';
+
+            html2canvas(document.getElementById('capture-area'), {
+                scale: 2,
+                backgroundColor: "#fcfbf7",
+                useCORS: true
+            }).then(canvas => {
+                btn.style.display = 'block';
+                const link = document.createElement('a');
+                link.download = '花笙米互填表格.png';
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+            });
+        }
+    </script>
+
+</body>
+
+</html>

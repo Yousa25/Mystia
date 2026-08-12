@@ -205,5 +205,29 @@ namespace Example027
 
  当某个类里的成员都是抽象的，就引入了接口的概念。
 
+ ``` c#
+interface IVehicle{
+    void Stop();
+    void Fill();
+    void Run();
+}
+
+abstract class Vehicle:IVehicle
+{
+    public void Stop()
+    {
+        Console.WriteLine("Stopped");
+    }
+
+    public void Fill()
+    {
+        Console.WriteLine("Pay and fill");
+    }
+
+    abstract public void Run();
+}
+
+ ```
+
 
 
